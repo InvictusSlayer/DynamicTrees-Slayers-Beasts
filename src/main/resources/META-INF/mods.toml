@@ -1,0 +1,45 @@
+modLoader="javafml"
+loaderVersion="${forge_range}"
+license="${mod_license}"
+issueTrackerURL="${issue_url}"
+showAsResourcePack=false
+
+[[mods]]
+modId="dtslayersbeasts"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="${mod_authors}"
+#credits=""
+description='''${mod_description}'''
+#logoFile="assets/${mod_id}.png"
+displayURL="${homepage_url}"
+#updateJSONURL=""
+#displayTest="MATCH_VERSION"
+
+[[dependencies.dtslayersbeasts]]
+modId = "minecraft"
+mandatory = true
+versionRange = "${mc_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.dtslayersbeasts]]
+modId = "forge"
+mandatory = true
+versionRange = "${forge_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.dtslayersbeasts]]
+modId = "dynamictrees"
+mandatory = true
+versionRange = "[${mc_version}-${dt_version}]"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.dtslayersbeasts]]
+modId = "slayersbeasts"
+mandatory = true
+versionRange = "[${sb_version},)"
+ordering = "NONE"
+side = "BOTH"
