@@ -23,7 +23,7 @@ public class DTSBCellKits {
 		}
 
 		public SimpleVoxmap getLeafCluster() {
-			return null;
+			return DTSBLeafClusters.POINTED;
 		}
 
 		public int getDefaultHydration() {

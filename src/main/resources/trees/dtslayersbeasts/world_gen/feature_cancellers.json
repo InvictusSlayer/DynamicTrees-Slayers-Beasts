@@ -1,0 +1,10 @@
+[
+	{
+		"__comment": "Cancel standard tree features from Slayer's Beasts overworld biomes.",
+		"select": { "names": [ "slayersbeasts:.*" ], "category": [ "!nether" ] },
+		"cancellers": {
+			"type": "tree",
+			"namespaces": ["slayersbeasts", "minecraft"]
+		}
+	}
+]

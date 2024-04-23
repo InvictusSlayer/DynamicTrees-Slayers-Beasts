@@ -1,6 +1,7 @@
 package net.invictusslayer.dtslayersbeasts;
 
 import com.ferreusveritas.dynamictrees.api.GatherDataHelper;
+import com.ferreusveritas.dynamictrees.api.registry.RegistryHandler;
 import com.ferreusveritas.dynamictrees.block.leaves.LeavesProperties;
 import com.ferreusveritas.dynamictrees.block.rooty.SoilProperties;
 import com.ferreusveritas.dynamictrees.tree.family.Family;
@@ -30,14 +31,16 @@ public class DynamicTreesSB {
 		bus.addListener(this::gatherData);
 
 		MinecraftForge.EVENT_BUS.register(this);
-	}
 
-	private void gatherData(GatherDataEvent event) {
-		GatherDataHelper.gatherAllData(MOD_ID, event, SoilProperties.REGISTRY, Family.REGISTRY, Species.REGISTRY, LeavesProperties.REGISTRY);
+		RegistryHandler.setup(MOD_ID);
 	}
 
 	private void commonSetup(FMLCommonSetupEvent event) {}
 
 	@OnlyIn(Dist.CLIENT)
 	private void clientSetup(FMLClientSetupEvent event) {}
+
+	private void gatherData(GatherDataEvent event) {
+		GatherDataHelper.gatherAllData(MOD_ID, event, SoilProperties.REGISTRY, Family.REGISTRY, Species.REGISTRY, LeavesProperties.REGISTRY);
+	}
 }

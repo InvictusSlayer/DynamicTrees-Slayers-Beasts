@@ -21,7 +21,7 @@ minecraft {
         configureEach {
             workingDirectory project.file("run")
 
-            property "forge.logging.markers", "REGISTRIES" // SCAN/REGISTRIES/REGISTRYDUMP
+            property "forge.logging.markers", "REGISTRIES"
             property "forge.logging.console.level", "debug"
 
             property "mixin.env.remapRefMap", "true"
@@ -43,7 +43,13 @@ minecraft {
         }
         data {
             workingDirectory project.file("run-data")
-            args "--mod", mod_id, "--all", "--output", file("src/generated/resources/"), "--existing", file("src/main/resources/"), "--existing", file("src/generated/resources/")
+            args "--mod", mod_id, "--all",
+                    "--output", file("src/generated/resources/"),
+                    "--existing", file("src/main/resources/"),
+                    "--existing", file("src/generated/resources/"),
+                    "--existing-mod", "dynamictrees",
+                    "--existing-mod", "slayersbeasts"
+
         }
     }
 }
@@ -73,9 +79,10 @@ dependencies {
     implementation fg.deobf("maven.modrinth:slayers-beasts:${sb_version}")
 
     runtimeOnly fg.deobf("dev.architectury:architectury-forge:${arch_version}")
-    runtimeOnly fg.deobf("me.shedaniel.cloth:cloth-config-forge:${cc_version}")
+    runtimeOnly fg.deobf("me.shedaniel.cloth:cloth-config-forge:${cloth_version}")
     runtimeOnly fg.deobf("com.github.glitchfiend:TerraBlender-forge:${mc_version}-${tb_version}")
 
+    runtimeOnly fg.deobf("maven.modrinth:cc-tweaked:${cc_version}")
 //    runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}-forge:${jei_version}")
 
     annotationProcessor "org.spongepowered:mixin:0.8.5:processor"

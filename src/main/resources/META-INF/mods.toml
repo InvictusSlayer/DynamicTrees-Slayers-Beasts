@@ -34,12 +34,12 @@ side = "BOTH"
 modId = "dynamictrees"
 mandatory = true
 versionRange = "[${mc_version}-${dt_version}]"
-ordering = "NONE"
+ordering = "AFTER"
 side = "BOTH"
 
 [[dependencies.dtslayersbeasts]]
 modId = "slayersbeasts"
 mandatory = true
 versionRange = "[${sb_version},)"
-ordering = "NONE"
+ordering = "AFTER"
 side = "BOTH"
