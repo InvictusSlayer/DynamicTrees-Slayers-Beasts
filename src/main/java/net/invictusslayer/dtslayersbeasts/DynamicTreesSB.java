@@ -41,6 +41,9 @@ public class DynamicTreesSB {
 	private void clientSetup(FMLClientSetupEvent event) {}
 
 	private void gatherData(GatherDataEvent event) {
-		GatherDataHelper.gatherAllData(MOD_ID, event, SoilProperties.REGISTRY, Family.REGISTRY, Species.REGISTRY, LeavesProperties.REGISTRY);
+		GatherDataHelper.gatherTagData(MOD_ID, event);
+		GatherDataHelper.gatherLootData(MOD_ID, event);
+		GatherDataHelper.gatherBlockStateAndModelData(MOD_ID, event, SoilProperties.REGISTRY, Family.REGISTRY, Species.REGISTRY, LeavesProperties.REGISTRY);
+		GatherDataHelper.gatherItemModelData(MOD_ID, event, SoilProperties.REGISTRY, Family.REGISTRY, Species.REGISTRY, LeavesProperties.REGISTRY);
 	}
 }

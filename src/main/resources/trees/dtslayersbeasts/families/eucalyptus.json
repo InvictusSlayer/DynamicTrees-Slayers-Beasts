@@ -1,0 +1,7 @@
+{
+	"common_leaves": "dtslayersbeasts:eucalyptus",
+	"common_species": "dtslayersbeasts:eucalyptus",
+	"primitive_log": "slayersbeasts:eucalyptus_log",
+	"primitive_stripped_log": "slayersbeasts:stripped_eucalyptus_log",
+	"max_branch_radius": 24
+}

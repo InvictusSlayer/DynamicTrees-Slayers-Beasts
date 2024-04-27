@@ -1,0 +1,7 @@
+{
+	"common_leaves": "dtslayersbeasts:desert_oak",
+	"common_species": "dtslayersbeasts:desert_oak",
+	"primitive_log": "slayersbeasts:desert_oak_log",
+	"primitive_stripped_log": "slayersbeasts:stripped_desert_oak_log",
+	"max_branch_radius": 8
+}

@@ -1,0 +1,8 @@
+{
+	"common_leaves": "dtslayersbeasts:kapok",
+	"common_species": "dtslayersbeasts:kapok",
+	"primitive_log": "slayersbeasts:kapok_log",
+	"primitive_stripped_log": "slayersbeasts:stripped_kapok_log",
+	"max_branch_radius": 24,
+	"generate_surface_root": true
+}

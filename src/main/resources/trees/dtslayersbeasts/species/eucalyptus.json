@@ -1,0 +1,16 @@
+{
+	"family": "dtslayersbeasts:eucalyptus",
+	"tapering": 0.15,
+	"signal_energy": 24.0,
+	"up_probability": 1,
+	"lowest_branch_height": 6,
+	"growth_rate": 0.9,
+	"leaves_properties": "dtslayersbeasts:eucalyptus",
+	"environment_factors" : {
+		"#forge:is_hot": 1.05,
+		"#forge:is_cold": 0.5,
+		"#is_forest": 1.05
+	},
+	"perfect_biomes": { "names": [ "slayersbeasts:eucalypt_woodland", "slayersbeasts:outback" ] },
+	"primitive_sapling": "slayersbeasts:eucalyptus_sapling"
+}

@@ -1,0 +1,22 @@
+{
+    "family": "dtslayersbeasts:redwood",
+    "tapering": 0.25,
+    "signal_energy": 16.0,
+    "up_probability": 3,
+    "lowest_branch_height": 3,
+    "growth_rate": 0.9,
+    "growth_logic_kit": "conifer",
+    "leaves_properties": "dtslayersbeasts:redwood",
+    "environment_factors" : {
+        "#forge:is_cold": 0.5,
+        "#forge:is_dry": 0.95,
+        "#is_forest": 1.05
+    },
+    "perfect_biomes": { "names": [ "slayersbeasts:redwood_grove", "slayersbeasts:old_growth_redwood_grove" ] },
+    "primitive_sapling": "slayersbeasts:redwood_sapling",
+    "mega_species": "dtslayersbeasts:mega_redwood",
+    "features" : [
+        "conifer_topper",
+        "podzol"
+    ]
+}

@@ -2,14 +2,15 @@
 	{
 		"select": { "name": "slayersbeasts:aspen_forest" },
 		"apply": {
-			"select": {
+			"species": {
 				"random": {
 					"dtslayersbeasts:aspen": 4,
 					"dtslayersbeasts:tall_aspen": 1
 				}
 			},
-			"density": 0.6,
-			"chance": 0.8
+			"density": 1.0,
+			"chance": 0.8,
+			"forestness": 1.0
 		}
 	}
 ]
