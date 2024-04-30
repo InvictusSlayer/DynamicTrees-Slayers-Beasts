@@ -1,7 +1,7 @@
 {
     "family": "dtslayersbeasts:redwood",
     "tapering": 0.25,
-    "signal_energy": 32.0,
+    "signal_energy": 36.0,
     "up_probability": 9,
     "lowest_branch_height": 8,
     "growth_rate": 0.9,

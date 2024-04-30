@@ -12,5 +12,140 @@
 			"chance": 0.8,
 			"forestness": 1.0
 		}
+	},
+	{
+		"select": { "name": "slayersbeasts:bayou" },
+		"apply": {
+			"species": {
+				"random": {
+					"dtslayersbeasts:willow": 2,
+					"dynamictrees:mangrove": 3,
+					"dynamictrees:swamp_oak": 3
+				}
+			},
+			"density": 1.0,
+			"chance": 1.0
+		}
+	},
+	{
+		"select": { "name": "slayersbeasts:brushland" },
+		"apply": {
+			"species": {
+				"random": {
+					"dtslayersbeasts:desert_oak": 1,
+					"dynamictrees:acacia": 1
+				}
+			},
+			"density": 0.4,
+			"chance": 0.5
+		}
+	},
+	{
+		"select": { "name": "slayersbeasts:wooded_brushland" },
+		"apply": {
+			"species": {
+				"random": {
+					"dtslayersbeasts:desert_oak": 1,
+					"dynamictrees:acacia": 1
+				}
+			},
+			"density": 0.8,
+			"chance": 0.8
+		}
+	},
+	{
+		"select": { "name": "slayersbeasts:chaparral" },
+		"apply": {
+			"species": {
+				"random": {
+					"dtslayersbeasts:desert_oak": 1,
+					"dynamictrees:oak": 1
+				}
+			},
+			"density": 0.2,
+			"chance": 0.2
+		}
+	},
+	{
+		"select": { "name": "slayersbeasts:eucalypt_woodland" },
+		"apply": {
+			"species": {
+				"random": {
+					"dtslayersbeasts:eucalyptus": 1
+				}
+			},
+			"density": 1.0,
+			"chance": 0.9,
+			"forestness": 1.0
+		}
+	},
+	{
+		"select": { "name": "slayersbeasts:inky_moor" },
+		"apply": {
+			"species": {
+				"random": {
+					"dtslayersbeasts:willow": 3,
+					"dynamictrees:swamp_oak": 4
+				}
+			},
+			"density": 0.5,
+			"chance": 0.7
+		}
+	},
+	{
+		"select": { "name": "slayersbeasts:outback" },
+		"apply": {
+			"species": {
+				"random": {
+					"dtslayersbeasts:desert_oak": 3,
+					"dtslayersbeasts:eucalyptus": 1
+				}
+			},
+			"density": 0.4,
+			"chance": 0.3
+		}
+	},
+	{
+		"select": { "name": "slayersbeasts:rainforest" },
+		"apply": {
+			"species": {
+				"random": {
+					"dtslayersbeasts:kapok": 1
+				}
+			},
+			"density": 1.0,
+			"chance": 1.0,
+			"forestness": 1.0
+		}
+	},
+	{
+		"select": { "name": "slayersbeasts:redwood_grove" },
+		"apply": {
+			"species": {
+				"random": {
+					"dtslayersbeasts:albino_redwood": 1,
+					"dtslayersbeasts:redwood": 35,
+					"dtslayersbeasts:mega_redwood": 25
+				}
+			},
+			"density": 1.0,
+			"chance": 1.0,
+			"forestness": 1.0
+		}
+	},
+	{
+		"select": { "name": "slayersbeasts:old_growth_redwood_grove" },
+		"apply": {
+			"species": {
+				"random": {
+					"dtslayersbeasts:mega_albino_redwood": 1,
+					"dtslayersbeasts:mega_redwood": 30,
+					"dtslayersbeasts:ultra_redwood": 35
+				}
+			},
+			"density": 1.0,
+			"chance": 1.0,
+			"forestness": 1.0
+		}
 	}
 ]

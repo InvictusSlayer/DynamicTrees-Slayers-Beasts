@@ -78,7 +78,7 @@ dependencies {
 //    implementation fg.deobf("maven.modrinth:dynamictreesplus:${mc_version}-${dtp_version}")
     implementation fg.deobf("maven.modrinth:slayers-beasts:${sb_version}")
 
-    runtimeOnly fg.deobf("dev.architectury:architectury-forge:${arch_version}")
+    implementation fg.deobf("dev.architectury:architectury-forge:${arch_version}")
     runtimeOnly fg.deobf("me.shedaniel.cloth:cloth-config-forge:${cloth_version}")
     runtimeOnly fg.deobf("com.github.glitchfiend:TerraBlender-forge:${mc_version}-${tb_version}")
 
