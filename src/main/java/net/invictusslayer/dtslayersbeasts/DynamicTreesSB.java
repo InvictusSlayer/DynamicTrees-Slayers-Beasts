@@ -6,6 +6,7 @@ import com.ferreusveritas.dynamictrees.block.leaves.LeavesProperties;
 import com.ferreusveritas.dynamictrees.block.rooty.SoilProperties;
 import com.ferreusveritas.dynamictrees.tree.family.Family;
 import com.ferreusveritas.dynamictrees.tree.species.Species;
+import com.ferreusveritas.dynamictreesplus.block.mushroom.CapProperties;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.common.MinecraftForge;
@@ -43,7 +44,7 @@ public class DynamicTreesSB {
 	private void gatherData(GatherDataEvent event) {
 		GatherDataHelper.gatherTagData(MOD_ID, event);
 		GatherDataHelper.gatherLootData(MOD_ID, event);
-		GatherDataHelper.gatherBlockStateAndModelData(MOD_ID, event, SoilProperties.REGISTRY, Family.REGISTRY, Species.REGISTRY, LeavesProperties.REGISTRY);
-		GatherDataHelper.gatherItemModelData(MOD_ID, event, SoilProperties.REGISTRY, Family.REGISTRY, Species.REGISTRY, LeavesProperties.REGISTRY);
+		GatherDataHelper.gatherBlockStateAndModelData(MOD_ID, event, SoilProperties.REGISTRY, Family.REGISTRY, Species.REGISTRY, LeavesProperties.REGISTRY, CapProperties.REGISTRY);
+		GatherDataHelper.gatherItemModelData(MOD_ID, event, SoilProperties.REGISTRY, Family.REGISTRY, Species.REGISTRY, LeavesProperties.REGISTRY, CapProperties.REGISTRY);
 	}
 }

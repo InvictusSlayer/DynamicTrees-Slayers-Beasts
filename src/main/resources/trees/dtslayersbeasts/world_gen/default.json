@@ -1,5 +1,18 @@
 [
 	{
+		"select": { "name": "slayersbeasts:ancient_grove" },
+		"apply": {
+			"species": {
+				"random": {
+					"dtslayersbeasts:kapok": 1
+				}
+			},
+			"density": 1.0,
+			"chance": 1.0,
+			"forestness": 1.0
+		}
+	},
+	{
 		"select": { "name": "slayersbeasts:aspen_forest" },
 		"apply": {
 			"species": {
@@ -85,11 +98,31 @@
 			"species": {
 				"random": {
 					"dtslayersbeasts:willow": 3,
-					"dynamictrees:swamp_oak": 4
+					"dynamictrees:swamp_oak": 4,
+					"dtslayersbeasts:black_mushroom": 2
 				}
 			},
 			"density": 0.5,
 			"chance": 0.7
+		}
+	},
+	{
+		"select": { "name": "slayersbeasts:mushroom_forest" },
+		"apply": {
+			"species": {
+				"random": {
+					"dtslayersbeasts:black_mushroom": 4,
+					"dynamictreesplus:brown_mushroom": 4,
+					"dynamictreesplus:red_mushroom": 4,
+					"dtslayersbeasts:mega_black_mushroom": 1,
+					"dynamictreesplus:mega_brown_mushroom": 1,
+					"dynamictreesplus:mega_red_mushroom": 1,
+					"dtslayersbeasts:mega_white_mushroom": 1
+				}
+			},
+			"density": 1.0,
+			"chance": 0.9,
+			"forestness": 1.0
 		}
 	},
 	{
@@ -125,7 +158,8 @@
 				"random": {
 					"dtslayersbeasts:albino_redwood": 1,
 					"dtslayersbeasts:redwood": 35,
-					"dtslayersbeasts:mega_redwood": 25
+					"dtslayersbeasts:mega_redwood": 25,
+					"dtslayersbeasts:white_mushroom": 5
 				}
 			},
 			"density": 1.0,
@@ -140,7 +174,8 @@
 				"random": {
 					"dtslayersbeasts:mega_albino_redwood": 1,
 					"dtslayersbeasts:mega_redwood": 30,
-					"dtslayersbeasts:ultra_redwood": 35
+					"dtslayersbeasts:ultra_redwood": 35,
+					"dtslayersbeasts:white_mushroom": 10
 				}
 			},
 			"density": 1.0,

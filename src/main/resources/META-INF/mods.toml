@@ -33,7 +33,14 @@ side = "BOTH"
 [[dependencies.dtslayersbeasts]]
 modId = "dynamictrees"
 mandatory = true
-versionRange = "[${mc_version}-${dt_version}]"
+versionRange = "[${dt_version},)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.dtslayersbeasts]]
+modId = "dynamictreesplus"
+mandatory = true
+versionRange = "[${dtp_version},)"
 ordering = "AFTER"
 side = "BOTH"
 

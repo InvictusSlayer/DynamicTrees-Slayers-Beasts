@@ -1,0 +1,14 @@
+{
+	"only_if_loaded": "dynamictreesplus",
+	"type": "dynamictreesplus:mushroom",
+	"common_cap": "dtslayersbeasts:black_mushroom",
+	"common_species": "dtslayersbeasts:black_mushroom",
+	"primitive_log": "mushroom_stem",
+	"stick": "air",
+	"generate_stripped_branch": false,
+	"max_branch_radius": 24,
+	"texture_overrides": {
+		"branch": "block/mushroom_stem",
+		"branch_top": "slayersbeasts:block/mushroom_block_dark_inside"
+	}
+}

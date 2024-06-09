@@ -20,7 +20,6 @@
         "#is_forest": 1.05
     },
     "perfect_biomes": { "names": [ "slayersbeasts:redwood_grove", "slayersbeasts:old_growth_redwood_grove" ] },
-    "generate_sapling": true,
     "mega_species": "dtslayersbeasts:ultra_redwood",
     "features" : [
         "conifer_topper",

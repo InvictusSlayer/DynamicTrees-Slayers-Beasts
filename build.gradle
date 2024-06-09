@@ -49,7 +49,6 @@ minecraft {
                     "--existing", file("src/generated/resources/"),
                     "--existing-mod", "dynamictrees",
                     "--existing-mod", "slayersbeasts"
-
         }
     }
 }
@@ -58,10 +57,6 @@ sourceSets.main.java { srcDir "src/main/java" }
 sourceSets.main.resources {
     srcDir "src/main/resources"
     srcDir "src/generated/resources"
-}
-
-processResources {
-    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
 
 repositories {
@@ -75,7 +70,7 @@ dependencies {
     minecraft "net.minecraftforge:forge:${mc_version}-${forge_version}"
 
     implementation fg.deobf("maven.modrinth:dynamictrees:${mc_version}-${dt_version}")
-//    implementation fg.deobf("maven.modrinth:dynamictreesplus:${mc_version}-${dtp_version}")
+    implementation fg.deobf("maven.modrinth:dynamictreesplus:${mc_version}-${dtp_version}")
     implementation fg.deobf("maven.modrinth:slayers-beasts:${sb_version}")
 
     implementation fg.deobf("dev.architectury:architectury-forge:${arch_version}")
@@ -109,6 +104,7 @@ tasks.named("processResources", ProcessResources).configure {
     filesMatching(["pack.mcmeta", "META-INF/mods.toml"]) {
         expand replaceProperties + [project: project]
     }
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
 
 publishing {

@@ -1,0 +1,4 @@
+{
+	"primitive_soil": "slayersbeasts:deepslate_styphium",
+	"acceptable_soils": [ "fungus_like", "stone_like" ]
+}

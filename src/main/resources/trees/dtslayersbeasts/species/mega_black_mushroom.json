@@ -1,0 +1,23 @@
+{
+	"type": "dynamictreesplus:mushroom",
+	"family": "dtslayersbeasts:mushroom_dark",
+	"tapering": 0,
+	"signal_energy": 16,
+	"growth_rate": 1.2,
+	"soil_longevity": 3,
+	"max_branch_radius": 24,
+	"cap_properties": "dtslayersbeasts:black_mushroom",
+	"mushroom_shape_kit": {
+		"name": "dynamictreesplus:bell",
+		"properties": {
+			"max_cap_age": 8,
+			"curve_factor_variation": 0.05,
+			"max_age_curve_factor": 0.9,
+			"min_age_curve_factor": 1.0
+		}
+	},
+	"acceptable_soils": ["fungus_like"],
+	"features" : [
+		"bottom_flare"
+	]
+}
