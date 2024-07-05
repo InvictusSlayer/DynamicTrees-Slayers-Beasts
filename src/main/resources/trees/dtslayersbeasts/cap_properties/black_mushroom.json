@@ -1,4 +1,5 @@
 {
 	"primitive_cap": "slayersbeasts:black_mushroom_block",
-	"material_color": "TERRACOTTA_BLACK"
+	"material_color": "TERRACOTTA_BLACK",
+	"mushroom_item": "slayersbeasts:black_mushroom"
 }
