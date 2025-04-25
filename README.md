@@ -5,6 +5,8 @@ An addon which brings the progressive growth functionality of [Dynamic Trees](ht
 ## Features
 ### Trees
 - Aspen
+- Bloodwood
+- Cypress
 - Desert Oak
 - Eucalyptus
 - Kapok
@@ -12,7 +14,7 @@ An addon which brings the progressive growth functionality of [Dynamic Trees](ht
 - Albino Redwood (+ Mega)
 - Willow
 
-### Mushrooms
+### Mushrooms (Branching WIP)
 - Black (Huge, Mega & Branching)
 - White (Huge, Mega & Branching)
 - Branching Brown & Red
