@@ -12,5 +12,8 @@
 		"#is_forest": 1.05
 	},
 	"perfect_biomes": { "names": [ "slayersbeasts:eucalypt_woodland", "slayersbeasts:outback" ] },
-	"primitive_sapling": "slayersbeasts:eucalyptus_sapling"
+	"primitive_sapling": "slayersbeasts:eucalyptus_sapling",
+	"lang_overrides": {
+		"seed": "Eucalyptus Pod"
+	}
 }

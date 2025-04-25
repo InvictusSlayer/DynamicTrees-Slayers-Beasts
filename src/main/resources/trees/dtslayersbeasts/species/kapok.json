@@ -52,5 +52,8 @@
             }
         },
         "bottom_flare"
-    ]
+    ],
+    "lang_overrides": {
+        "seed": "Kapok Pod"
+    }
 }

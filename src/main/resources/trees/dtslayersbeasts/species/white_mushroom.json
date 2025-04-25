@@ -21,5 +21,8 @@
 	"mega_species": "dtslayersbeasts:mega_white_mushroom",
 	"features" : [
 		"bottom_flare"
-	]
+	],
+	"lang_overrides": {
+		"seed": "White Mushroom Cap"
+	}
 }

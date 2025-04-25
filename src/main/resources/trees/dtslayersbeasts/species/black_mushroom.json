@@ -21,5 +21,8 @@
 	"mega_species": "dtslayersbeasts:mega_black_mushroom",
 	"features" : [
 		"bottom_flare"
-	]
+	],
+	"lang_overrides": {
+		"seed": "Black Mushroom Cap"
+	}
 }

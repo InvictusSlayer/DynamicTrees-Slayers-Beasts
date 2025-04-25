@@ -1,0 +1,7 @@
+{
+	"common_leaves": "dtslayersbeasts:cypress",
+	"common_species": "dtslayersbeasts:cypress",
+	"primitive_log": "slayersbeasts:cypress_log",
+	"primitive_stripped_log": "slayersbeasts:stripped_cypress_log",
+	"max_branch_radius": 8
+}

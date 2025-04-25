@@ -18,5 +18,8 @@
     "features" : [
         "conifer_topper",
         "podzol"
-    ]
+    ],
+    "lang_overrides": {
+        "seed": "Redwood Cone"
+    }
 }

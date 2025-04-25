@@ -24,8 +24,8 @@ public class DynamicTreesSB {
 	public static final String MOD_ID = "dtslayersbeasts";
 	public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
 
-	public DynamicTreesSB() {
-		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+	public DynamicTreesSB(FMLJavaModLoadingContext context) {
+		IEventBus bus = context.getModEventBus();
 
 		bus.addListener(this::commonSetup);
 		bus.addListener(this::clientSetup);

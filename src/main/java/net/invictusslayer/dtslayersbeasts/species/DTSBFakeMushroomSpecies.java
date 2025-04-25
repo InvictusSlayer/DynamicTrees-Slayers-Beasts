@@ -9,7 +9,7 @@ import net.minecraft.resources.ResourceLocation;
 
 public class DTSBFakeMushroomSpecies extends Species {
 	public DTSBFakeMushroomSpecies(boolean whitecap) {
-		setRegistryName(new ResourceLocation(DynamicTreesSB.MOD_ID, (whitecap ? "white" : "black") + "_mushroom"));
+		setRegistryName(ResourceLocation.fromNamespaceAndPath(DynamicTreesSB.MOD_ID, (whitecap ? "white" : "black") + "_mushroom"));
 		setUnlocalizedName(getRegistryName().toString());
 		setStandardSoils();
 

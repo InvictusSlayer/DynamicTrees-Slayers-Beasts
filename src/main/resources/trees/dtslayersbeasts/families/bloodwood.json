@@ -1,0 +1,7 @@
+{
+	"common_leaves": "dtslayersbeasts:bloodwood",
+	"common_species": "dtslayersbeasts:bloodwood",
+	"primitive_log": "slayersbeasts:bloodwood_log",
+	"primitive_stripped_log": "slayersbeasts:stripped_bloodwood_log",
+	"max_branch_radius": 8
+}

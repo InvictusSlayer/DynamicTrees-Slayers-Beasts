@@ -1,0 +1,19 @@
+{
+	"family": "dtslayersbeasts:bloodwood",
+	"tapering": 0.3,
+	"signal_energy": 12.0,
+	"up_probability": 5,
+	"lowest_branch_height": 4,
+	"growth_rate": 0.7,
+	"leaves_properties": "dtslayersbeasts:bloodwood",
+	"environment_factors" : {
+		"#forge:is_hot": 1.05,
+		"#forge:is_cold": 0.5,
+		"#is_forest": 1.05
+	},
+	"perfect_biomes": { "name": "slayersbeasts:eucalypt_woodland" },
+	"primitive_sapling": "slayersbeasts:bloodwood_sapling",
+	"lang_overrides": {
+		"seed": "Bloodwood Pod"
+	}
+}

@@ -40,6 +40,6 @@ public class DTSBRegistries {
 
 	@SubscribeEvent
 	public static void registerFeatureCancellers(RegistryEvent<FeatureCanceller> event) {
-		event.getRegistry().registerAll(new DoubleRandomFeatureCanceller<>(new ResourceLocation(DynamicTreesSB.MOD_ID, "mushroom"), HugeMushroomFeatureConfiguration.class));
+		event.getRegistry().registerAll(new DoubleRandomFeatureCanceller<>(ResourceLocation.fromNamespaceAndPath(DynamicTreesSB.MOD_ID, "mushroom"), HugeMushroomFeatureConfiguration.class));
 	}
 }

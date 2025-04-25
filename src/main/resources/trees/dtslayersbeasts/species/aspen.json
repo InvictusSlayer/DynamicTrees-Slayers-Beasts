@@ -13,5 +13,8 @@
 		"#is_forest": 1.05
 	},
 	"perfect_biomes": { "name": "slayersbeasts:aspen_forest" },
-	"primitive_sapling": "slayersbeasts:aspen_sapling"
+	"primitive_sapling": "slayersbeasts:aspen_sapling",
+	"lang_overrides": {
+		"seed": "Aspen Catkin"
+	}
 }

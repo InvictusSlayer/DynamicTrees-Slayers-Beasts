@@ -31,9 +31,9 @@
 		"apply": {
 			"species": {
 				"random": {
+					"dtslayersbeasts:cypress": 2,
 					"dtslayersbeasts:willow": 2,
-					"dynamictrees:mangrove": 3,
-					"dynamictrees:swamp_oak": 3
+					"dynamictrees:mangrove": 3
 				}
 			},
 			"density": 1.0,
@@ -84,7 +84,8 @@
 		"apply": {
 			"species": {
 				"random": {
-					"dtslayersbeasts:eucalyptus": 1
+					"dtslayersbeasts:bloodwood": 1,
+					"dtslayersbeasts:eucalyptus": 2
 				}
 			},
 			"density": 1.0,
@@ -143,7 +144,8 @@
 		"apply": {
 			"species": {
 				"random": {
-					"dtslayersbeasts:kapok": 1
+					"dtslayersbeasts:cypress": 1,
+					"dtslayersbeasts:kapok": 2
 				}
 			},
 			"density": 1.0,

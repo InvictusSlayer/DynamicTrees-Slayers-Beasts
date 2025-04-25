@@ -13,5 +13,8 @@
 		"#is_forest": 0.95
 	},
 	"perfect_biomes": { "names": [ "slayersbeasts:chaparral", "slayersbeasts:outback" ] },
-	"primitive_sapling": "slayersbeasts:desert_oak_sapling"
+	"primitive_sapling": "slayersbeasts:desert_oak_sapling",
+	"lang_overrides": {
+		"seed": "Desert Oak Cone"
+	}
 }

@@ -6,6 +6,6 @@ import net.minecraft.resources.ResourceLocation;
 
 public class AspenGrowthLogic extends GrowthLogicKit {
 	public AspenGrowthLogic() {
-		super(new ResourceLocation(DynamicTreesSB.MOD_ID, "aspen"));
+		super(ResourceLocation.fromNamespaceAndPath(DynamicTreesSB.MOD_ID, "aspen"));
 	}
 }

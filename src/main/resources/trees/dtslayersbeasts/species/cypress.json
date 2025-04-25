@@ -1,0 +1,19 @@
+{
+	"family": "dtslayersbeasts:cypress",
+	"tapering": 0.25,
+	"signal_energy": 12.0,
+	"up_probability": 7,
+	"lowest_branch_height": 3,
+	"growth_rate": 0.7,
+	"leaves_properties": "dtslayersbeasts:cypress",
+	"environment_factors" : {
+		"#forge:is_hot": 0.65,
+		"#forge:is_dry": 0.65,
+		"#is_forest": 1.05
+	},
+	"perfect_biomes": { "name": [ "slayersbeasts:bayou", "slayersbeasts:rainforest" ] },
+	"primitive_sapling": "slayersbeasts:cypress_sapling",
+	"lang_overrides": {
+		"seed": "Cypress Cone"
+	}
+}
